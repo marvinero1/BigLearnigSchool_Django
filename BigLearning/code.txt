@@ -1,0 +1,17 @@
+django-admin startproject nombreProyecto   #Creacion de nuevo proyecto.
+python manage.py runserver  #correr servidor.
+python manage.py --help  #ayuda en comandos
+python manage.py nombreProyecto data #migracionData
+python manage.py migrate
+/////********/////
+pip install gunicorn
+pip install dj-database-url
+pip install whitenoise
+pip install psycopg2-binary
+pip install djangorestframework.
+pip install django-bootstrap4
+pip install pylint-django
+/////****LOGIN****/////
+python manage.py createsuperuser
+
+
