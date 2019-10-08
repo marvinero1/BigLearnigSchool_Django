@@ -16,3 +16,6 @@ def index(request):
     #documento=doc_externo.render()
 
     return render(request, "index.html", None)
+
+def cursos(request):
+    return render(request, "cursos.html", None)

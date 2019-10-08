@@ -18,10 +18,12 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 from BigLearning.views import index
+from BigLearning.views import cursos
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', index),
+    path('cursos/', cursos),
 ]
 
 if settings.DEBUG:
