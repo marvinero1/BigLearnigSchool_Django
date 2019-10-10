@@ -55,7 +55,7 @@ ROOT_URLCONF = 'BigLearning.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'I:/BigLearnigSchool_asp.net/BigLearning/BigLearning/vistas')],
+        'DIRS': [os.path.join(BASE_DIR, 'I:/BigLearnigSchool_Django/BigLearning/BigLearning/vistas')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

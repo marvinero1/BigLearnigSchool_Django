@@ -19,11 +19,12 @@ from django.contrib import admin
 from django.urls import path
 from BigLearning.views import index
 from BigLearning.views import cursos
+from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', index),
-    path('cursos/', cursos),
+    path('index/', views.index ,name='index'),
+    path('cursos/', views.cursos,name='cursos'),
 ]
 
 if settings.DEBUG:
