@@ -19,3 +19,6 @@ def index(request):
 
 def cursos(request):
     return render(request, "cursos.html", None)
+
+def profesores(request):
+    return render(request, "profesor.html", None)
